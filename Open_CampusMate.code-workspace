@@ -1,0 +1,21 @@
+{
+  "folders": [{ "path": "." }],
+  "settings": {
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe"
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run CampusMate",
+        "type": "process",
+        "command": "cmd.exe",
+        "args": ["/d", "/c", "RUN_CAMPUSMATE.cmd"],
+        "options": { "cwd": "${workspaceFolder}" },
+        "problemMatcher": [],
+        "presentation": { "reveal": "always", "focus": true, "panel": "dedicated" }
+      }
+    ]
+  }
+}

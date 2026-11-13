@@ -1,0 +1,637 @@
+{
+  "college": "JSPM's Jayawantrao Sawant College of Engineering, Hadapsar",
+  "checked_on": "2026-11-13",
+  "revision": 1,
+  "entries": [
+    {
+      "id": "jscoe-admission-checklist",
+      "title": "JSCOE admission document checklist",
+      "category": "Admissions",
+      "questions": [
+        "Which documents are required for admission?",
+        "Admission documents checklist",
+        "What papers should I bring for admission?",
+        "What certificates do I need?",
+        "How many photographs do I need for admission?",
+        "Do I need a gap certificate?"
+      ],
+      "answer": "The college checklist lists:\n• CET/JEE scorecard; Class 12 and Class 10 marksheets; Class 10 passing certificate.\n• Leaving certificate; birth certificate / domicile and nationality, if required.\n• Caste certificate, caste validity and non-creamy-layer certificate.\n• Mother-tongue certificate and MKB certificate.\n• Two colour photographs; gap certificate, if required.\nCategory columns are not readable as requirements on the webpage. Ask admissions which conditional certificates apply to you; the bot cannot decide reservation eligibility.",
+      "programme": null,
+      "academic_year": null,
+      "semester": null,
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/admissions/documents-checklist",
+        "format": "html",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-admission-process",
+      "title": "JSCOE admission process overview",
+      "category": "Admissions",
+      "questions": [
+        "How do I apply for engineering admission?",
+        "Admission procedure steps",
+        "How does CAP admission work?",
+        "What happens after seat allotment?",
+        "How to register for admission?"
+      ],
+      "answer": "The posted admission guide describes this sequence:\n1. Register online with the competent Maharashtra admission authority.\n2. Complete document verification.\n3. Check merit lists and resolve grievances.\n4. Submit course and institute preferences in the option form.\n5. Check seat allotment, accept the seat as applicable and report to the allotted institute to confirm admission.\nThe PDF is undated. Check the current CAP portal for the active schedule and round rules.",
+      "programme": null,
+      "academic_year": null,
+      "semester": null,
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/Admission/AdmissionProcedure.pdf",
+        "format": "pdf",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-admission-eligibility",
+      "title": "JSCOE posted admission eligibility guide (undated)",
+      "category": "Admissions",
+      "questions": [
+        "What is engineering admission eligibility?",
+        "Can I apply with MHT CET or JEE Main?",
+        "What HSC subjects and minimum marks does the guide mention?"
+      ],
+      "answer": "The undated guide mentions MHT-CET/JEE Main and HSC/equivalent with Physics and Mathematics plus a permitted additional subject. It states 45% qualifying marks for general and 40% for listed reserved categories, and mentions diploma lateral entry. These are the guide’s statements; verify the current CAP brochure before relying on eligibility.",
+      "programme": null,
+      "academic_year": null,
+      "semester": null,
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/Admission/AdmissionProcedure.pdf",
+        "format": "pdf",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-admission-contact",
+      "title": "JSCOE admission office contact",
+      "category": "Admissions",
+      "questions": [
+        "Who should I contact for admission?",
+        "Admission office email phone number",
+        "First year engineering admission coordinator contact",
+        "Contact college administration"
+      ],
+      "answer": "The admissions page lists admission@jspmjscoe.edu.in. For first-year engineering enquiries it lists Dr. Manish Gardi, 7558670405. Administration: Prof. A. B. Gawand, 9975563855. These contacts were checked on 13 November 2026.",
+      "programme": null,
+      "academic_year": null,
+      "semester": null,
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/admissions/documents-checklist",
+        "format": "html",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-fee-programmes",
+      "title": "JSCOE posted 2026–27 fee structure",
+      "category": "Fees",
+      "questions": [
+        "What is the fee structure?",
+        "How much are the college fees?",
+        "What are the total tuition and development fees?",
+        "Show posted fees for all programmes"
+      ],
+      "answer": "Posted OPEN-category totals for 2026–27: B.E Rs 1,20,000; M.E Rs 1,02,000; MBA Rs 89,000; MCA Rs 86,000. Ask with a programme and category for its table row. This is the posted fee table, not a personal payment demand. Confirm your payable amount with accounts.",
+      "programme": null,
+      "academic_year": "2026-27",
+      "semester": null,
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/Admission/FeeStructure2026-2027.pdf",
+        "format": "pdf",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-fees-engineering",
+      "title": "JSCOE B.E engineering fees 2026–27",
+      "category": "Fees",
+      "questions": [
+        "What are the B.E engineering fees?",
+        "B.Tech tuition development total cost",
+        "B.Tech OBC SEBC EWS male fees",
+        "B.Tech SC ST fees",
+        "B.Tech VJNT SBC TFWS fees",
+        "B.Tech girls female fees"
+      ],
+      "answer": "For B.E engineering, the posted 2026–27 table shows:\n• OPEN: tuition Rs 1,04,348 + development Rs 15,652 = total Rs 1,20,000.\n• OBC/SEBC/EWS (male): total Rs 67,826.\n• SC/ST: total Rs 0.\n• VJNT/SBC/TFWS: total Rs 15,652.\n• OBC/SEBC/EWS (girls): total Rs 15,652.\nThese are the categories printed in the PDF. Accounts must confirm your eligibility and final payable amount; no hostel, transport or other unlisted charges are inferred.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": null,
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/Admission/FeeStructure2026-2027.pdf",
+        "format": "pdf",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-fees-me",
+      "title": "JSCOE M.E fees 2026–27",
+      "category": "Fees",
+      "questions": [
+        "What are the M.E fees?",
+        "M.E tuition development total cost",
+        "M.E OBC SEBC EWS male fees",
+        "M.E SC ST fees",
+        "M.E VJNT SBC TFWS fees",
+        "M.E girls female fees"
+      ],
+      "answer": "For M.E, the posted 2026–27 table shows:\n• OPEN: tuition Rs 88,696 + development Rs 13,304 = total Rs 1,02,000.\n• OBC/SEBC/EWS (male): total Rs 57,652.\n• SC/ST: total Rs 0.\n• VJNT/SBC/TFWS: total Rs 13,304.\n• OBC/SEBC/EWS (girls): total Rs 13,304.\nThese are the categories printed in the PDF. Accounts must confirm your eligibility and final payable amount; no hostel, transport or other unlisted charges are inferred.",
+      "programme": "M.E",
+      "academic_year": "2026-27",
+      "semester": null,
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/Admission/FeeStructure2026-2027.pdf",
+        "format": "pdf",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-fees-mba",
+      "title": "JSCOE MBA fees 2026–27",
+      "category": "Fees",
+      "questions": [
+        "What are the MBA fees?",
+        "MBA tuition development total cost",
+        "MBA OBC SEBC EWS male fees",
+        "MBA SC ST fees",
+        "MBA VJNT SBC TFWS fees",
+        "MBA girls female fees"
+      ],
+      "answer": "For MBA, the posted 2026–27 table shows:\n• OPEN: tuition Rs 77,391 + development Rs 11,609 = total Rs 89,000.\n• OBC/SEBC/EWS (male): total Rs 50,304.\n• SC/ST: total Rs 0.\n• VJNT/SBC/TFWS: total Rs 11,609.\n• OBC/SEBC/EWS (girls): total Rs 11,609.\nThese are the categories printed in the PDF. Accounts must confirm your eligibility and final payable amount; no hostel, transport or other unlisted charges are inferred.",
+      "programme": "MBA",
+      "academic_year": "2026-27",
+      "semester": null,
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/Admission/FeeStructure2026-2027.pdf",
+        "format": "pdf",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-fees-mca",
+      "title": "JSCOE MCA fees 2026–27",
+      "category": "Fees",
+      "questions": [
+        "What are the MCA fees?",
+        "MCA tuition development total cost",
+        "MCA OBC SEBC EWS male fees",
+        "MCA SC ST fees",
+        "MCA VJNT SBC TFWS fees",
+        "MCA girls female fees"
+      ],
+      "answer": "For MCA, the posted 2026–27 table shows:\n• OPEN: tuition Rs 74,783 + development Rs 11,217 = total Rs 86,000.\n• OBC/SEBC/EWS (male): total Rs 48,609.\n• SC/ST: total Rs 0.\n• VJNT/SBC/TFWS: total Rs 11,217.\n• OBC/SEBC/EWS (girls): total Rs 11,217.\nThese are the categories printed in the PDF. Accounts must confirm your eligibility and final payable amount; no hostel, transport or other unlisted charges are inferred.",
+      "programme": "MCA",
+      "academic_year": "2026-27",
+      "semester": null,
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/Admission/FeeStructure2026-2027.pdf",
+        "format": "pdf",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar",
+      "title": "JSCOE F.Y. B.Tech academic calendar 2026–27 Semester I",
+      "category": "Timetables",
+      "questions": [
+        "Show the first year academic calendar",
+        "Academic calendar 2026-27 semester 1",
+        "First year semester schedule important dates"
+      ],
+      "answer": "F.Y. B.Tech, AY 2026–27, Semester I:\n• Induction programme: 15 September 2026.\n• Induction week: 15–18 September 2026.\n• Teaching commencement: 21 September 2026.\n• CCE activity 01 submission and evaluation: 10 October 2026.\n• CCE activity 02 submission and evaluation: 24 October 2026.\n• CCE activity 03 submission and evaluation: 06 November 2026.\n• CCE activity 04 submission and evaluation: 20 November 2026.\n• CCE activity 05 submission and evaluation: 04 December 2026.\n• Project competition: 07 December 2026.\n• Practical / termwork submissions with evaluation: 08–10 December 2026.\n• Preparation leave: 11–20 December 2026.\n• End-semester examination window: 23 December 2026–07 January 2027.\n• Evaluation: 23 December 2026–10 January 2027.\n• Open day: 09 January 2027.\n• Declaration of results: 11 January 2027.\n• Retest for failed / absent students: 21–27 January 2027.\n• Retest result declaration: 30 January 2027.\n• Next-semester teaching commencement: 01 February 2027.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-induction",
+      "title": "JSCOE Induction programme — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When is first year induction?",
+        "First year orientation date"
+      ],
+      "answer": "Induction programme: 15 September 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-induction-week",
+      "title": "JSCOE Induction week — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When is induction week?"
+      ],
+      "answer": "Induction week: 15–18 September 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-teaching-start",
+      "title": "JSCOE Teaching commencement — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When do first year classes start?",
+        "When does teaching commence?"
+      ],
+      "answer": "Teaching commencement: 21 September 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-cce1",
+      "title": "JSCOE CCE activity 01 submission and evaluation — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When is CCE 1 submission?"
+      ],
+      "answer": "CCE activity 01 submission and evaluation: 10 October 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-cce2",
+      "title": "JSCOE CCE activity 02 submission and evaluation — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When is CCE 2 submission?"
+      ],
+      "answer": "CCE activity 02 submission and evaluation: 24 October 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-cce3",
+      "title": "JSCOE CCE activity 03 submission and evaluation — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When is CCE 3 submission?"
+      ],
+      "answer": "CCE activity 03 submission and evaluation: 06 November 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-cce4",
+      "title": "JSCOE CCE activity 04 submission and evaluation — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When is CCE 4 submission?"
+      ],
+      "answer": "CCE activity 04 submission and evaluation: 20 November 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-cce5",
+      "title": "JSCOE CCE activity 05 submission and evaluation — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When is CCE 5 submission?"
+      ],
+      "answer": "CCE activity 05 submission and evaluation: 04 December 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-project",
+      "title": "JSCOE Project competition — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When is the project competition?"
+      ],
+      "answer": "Project competition: 07 December 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-practical",
+      "title": "JSCOE Practical / termwork submissions with evaluation — FY 2026–27",
+      "category": "Examinations",
+      "questions": [
+        "When are practical and termwork submissions?"
+      ],
+      "answer": "Practical / termwork submissions with evaluation: 08–10 December 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-preparation",
+      "title": "JSCOE Preparation leave — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When is preparation leave?",
+        "Study leave dates"
+      ],
+      "answer": "Preparation leave: 11–20 December 2026.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-endsem",
+      "title": "JSCOE End-semester examination window — FY 2026–27",
+      "category": "Examinations",
+      "questions": [
+        "When are first year end semester exams?",
+        "End sem examination schedule dates",
+        "When is my exam?"
+      ],
+      "answer": "End-semester examination window: 23 December 2026–07 January 2027.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-evaluation",
+      "title": "JSCOE Evaluation — FY 2026–27",
+      "category": "Examinations",
+      "questions": [
+        "When is evaluation?"
+      ],
+      "answer": "Evaluation: 23 December 2026–10 January 2027.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-open-day",
+      "title": "JSCOE Open day — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When is open day?"
+      ],
+      "answer": "Open day: 09 January 2027.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-results",
+      "title": "JSCOE Declaration of results — FY 2026–27",
+      "category": "Examinations",
+      "questions": [
+        "When are first year results declared?",
+        "Result declaration date"
+      ],
+      "answer": "Declaration of results: 11 January 2027.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-retest",
+      "title": "JSCOE Retest for failed / absent students — FY 2026–27",
+      "category": "Examinations",
+      "questions": [
+        "When is the retest for failed or absent students?"
+      ],
+      "answer": "Retest for failed / absent students: 21–27 January 2027.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-retest-result",
+      "title": "JSCOE Retest result declaration — FY 2026–27",
+      "category": "Examinations",
+      "questions": [
+        "When are retest results declared?"
+      ],
+      "answer": "Retest result declaration: 30 January 2027.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "1",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-calendar-next-semester",
+      "title": "JSCOE Next-semester teaching commencement — FY 2026–27",
+      "category": "Timetables",
+      "questions": [
+        "When does next semester start?",
+        "When do semester 2 classes begin?"
+      ],
+      "answer": "Next-semester teaching commencement: 01 February 2027.\nSource: F.Y. B.Tech academic calendar, odd semester, AY 2026–27. This is a calendar plan; check for revised notices. It does not provide subject-wise paper times or classroom allocations.",
+      "programme": "B.Tech",
+      "academic_year": "2026-27",
+      "semester": "2",
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/storage/NAAC/AcademicCalenderOddSemesterAY2026-27.jpg",
+        "format": "image",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": false
+      }
+    },
+    {
+      "id": "jscoe-exam-notices",
+      "title": "JSCOE examination notice archive — 2024/2025 listings",
+      "category": "Examinations",
+      "questions": [
+        "Where can I find examination notices?",
+        "Exam form notices available on college website",
+        "Latest exam notice",
+        "Current examination circulars",
+        "Exam notice archive 2024 2025"
+      ],
+      "answer": "The examination-notices page was checked on 13 November 2026. Its listed exam-form notices are labelled 2024 or 2025 (including FE, SE–BE, ME, MBA and MCA). They are historical listings, not confirmed 2026–27 deadlines. Open the page or contact the examination office for a current form-filling notice.",
+      "programme": null,
+      "academic_year": null,
+      "semester": null,
+      "required_context": [],
+      "source": {
+        "url": "https://jspmjscoe.edu.in/information_corner/exam",
+        "format": "html",
+        "page": 1,
+        "checked_on": "2026-11-13",
+        "historical": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+/* Midnight black, pure white and lime green. */
+:root {
+  color-scheme: dark;
+  --bg: #080a0b;
+  --panel: #111517;
+  --panel2: #191f21;
+  --text: #ffffff;
+  --muted: #aab3b5;
+  --accent: #c6ff00;
+  --accent2: #c6ff00;
+  --mint: #c6ff00;
+  --on-accent: #080a0b;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #ffffff;
+  --panel: #f6f8f5;
+  --panel2: #edf1ea;
+  --text: #080a0b;
+  --muted: #525b53;
+  --accent: #426000;
+  --accent2: #c6ff00;
+  --mint: #426000;
+}
+
+::selection { background: #c6ff00; color: #080a0b; }
+.gradient-text { background: none; color: var(--accent); }
+.brand-mark, .btn-primary, .send-btn, .avatar,
+.filter-pills button.selected {
+  background: #c6ff00;
+  color: #080a0b;
+}
+.btn-primary { box-shadow: 0 8px 28px rgba(198,255,0,.14); }
+.btn-primary:hover { background: #d5ff4d; }
+.brand-mark { box-shadow: 0 0 25px rgba(198,255,0,.12); }
+.topbar { gap: 20px; }
+.top-actions { flex-shrink: 0; }
+.header-admin {
+  border-color: rgba(198,255,0,.45);
+  color: var(--accent);
+  white-space: nowrap;
+}
+.header-admin:hover, .header-admin.active { background: rgba(198,255,0,.1); }
+.nav { gap: 22px; }
+.notice-card:hover, .problem-card:hover, .workflow-card:hover {
+  border-color: rgba(198,255,0,.35);
+}
+.state-needs-context, .source-replaced, .status-pending {
+  background: rgba(255,255,255,.06);
+  color: var(--text);
+  border-color: var(--line);
+}
+.state-escalated, .source-expired, .source-conflicting, .flash.error {
+  background: transparent;
+  color: var(--text);
+  border: 1px dashed rgba(198,255,0,.5);
+}
+.state-answered, .source-current, .flash.success { color: var(--accent); }
+.topic-icon, .topic-1 .topic-icon, .topic-2 .topic-icon,
+.topic-3 .topic-icon, .topic-4 .topic-icon { color: var(--accent); }
+.form-error { color: var(--text); border-left: 3px solid var(--accent); padding-left: 10px; }
+.auth-sub { line-height: 1.8; }
+.admin-login {
+  max-width: 1080px;
+  min-height: calc(100vh - 82px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 85px;
+}
+.admin-login-copy { padding: 30px 0; }
+.admin-login-copy h1 { font-size: clamp(36px,4.4vw,58px); line-height: 1.12; margin: 24px 0 20px; }
+.admin-login-copy > p { color: var(--muted); line-height: 1.9; max-width: 410px; font-size: 14px; }
+.admin-capabilities { display: grid; gap: 15px; padding: 0; margin: 32px 0; list-style: none; }
+.admin-capabilities li { display: flex; align-items: center; gap: 12px; font-size: 13px; }
+.admin-capabilities svg { color: var(--accent); flex-shrink: 0; }
+.admin-signin-card {
+  padding: 38px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-top: 3px solid #c6ff00;
+  border-radius: 22px;
+  box-shadow: 0 24px 70px rgba(0,0,0,.24);
+}
+.admin-signin-card h2 { margin: 22px 0 10px; font: 800 32px Manrope,sans-serif; letter-spacing: -1px; }
+.admin-access-icon {
+  width: 48px; height: 48px; border-radius: 14px;
+  background: rgba(198,255,0,.1); color: var(--accent);
+  display: grid; place-items: center;
+}
+.password-field { position: relative; }
+.password-field input { padding-right: 48px; }
+.password-toggle {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  border: 0; background: transparent; color: var(--muted);
+  width: 34px; height: 34px; display: grid; place-items: center; border-radius: 8px;
+}
+.password-toggle:hover { color: var(--accent); }
+.admin-setup-note { margin-top: 22px; color: var(--muted); font-size: 11px; line-height: 1.8; }
+.admin-setup-note code { color: var(--text); font-size: 11px; }
+.admin-session-error { margin: 10px 0; color: var(--muted); font-size: 12px; }
+.admin-header .page-lead { max-width: 680px; }
+.context-fields { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+.context-fields label, .context-fields input, .context-fields select { min-width: 0; }
+.exam-origin-tag { font-size: 10px; letter-spacing: .8px; color: var(--accent); padding: 5px 0; }
+.demo-exam-warning { margin: 0 0 12px; font-size: 11px; }
+.exam-load { display: grid; gap: 8px; font-size: 12px; margin-bottom: 22px; }
+.exam-load select { background: var(--panel); color: var(--text); padding: 12px; border: 1px solid var(--line); border-radius: 10px; }
+.exam-editor .admin-subhead { margin-top: 0; }
+.exam-editor-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.exam-rows { display: grid; gap: 18px; }
+.exam-row { min-width: 0; border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+.exam-row legend { font-size: 12px; color: var(--accent); padding: 0 8px; }
+.exam-row .btn { margin-top: 14px; }
+.btn:disabled { cursor: default; opacity: .55; transform: none; }
+.admin-tabs { flex-wrap: wrap; }
+
+@media (max-width: 1220px) {
+  .nav { gap: 13px; }
+  .top-actions { gap: 7px; }
+  .top-actions .mode-pill { display: none; }
+  .topbar .user-chip { display: none; }
+}
+@media (max-width: 1000px) {
+  .admin-login { gap: 40px; }
+  .topbar .brand small { display: none; }
+  .nav-link { font-size: 12px; }
+}
+@media (max-width: 1000px) {
+  .topbar .nav {
+    display: none; position: absolute; top: 81px; left: 0; right: 0;
+    padding: 20px; background: var(--panel); border-bottom: 1px solid var(--line);
+    flex-direction: column; gap: 14px;
+  }
+  .topbar .nav.open { display: flex; }
+  .topbar .mobile-menu-btn { display: grid; }
+}
+@media (max-width: 650px) {
+  .context-fields { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .topbar { height: auto; min-height: 70px; flex-wrap: wrap; gap: 12px; padding: 14px 18px; }
+  .topbar .nav { top: 100%; }
+  .top-actions { margin-left: auto; gap: 6px; }
+  .top-actions .btn-small { padding: 9px 10px; font-size: 11px; }
+  .top-actions .icon-btn { width: 34px; height: 34px; }
+  .top-actions .header-admin { min-height: 34px; }
+  .top-actions .user-chip { display: none; }
+  .brand { padding: 0; font-size: 17px; }
+  .brand-mark { width: 32px; height: 32px; }
+  .admin-login { grid-template-columns: 1fr; gap: 14px; padding-top: 30px; }
+  .admin-login-copy { padding: 10px 0; }
+  .admin-login-copy h1 { font-size: 38px; }
+  .admin-signin-card { padding: 26px; }
+  .admin-capabilities { gap: 12px; margin: 22px 0; }
+}

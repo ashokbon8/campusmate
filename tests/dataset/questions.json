@@ -1,0 +1,62 @@
+{
+  "description": "Curated 50-question validation dataset from the CampusMate presentation. Routine questions (5 per category), missing-context questions, outdated/conflicting-notice cases, and unsupported questions. All content is synthetic SAMPLE data.",
+  "questions": [
+    {"id": "R-ADM-1", "bucket": "routine", "category": "Admissions", "question": "Which documents do I need?", "context": {"programme": "BSc CS"}, "expected_state": "answered"},
+    {"id": "R-ADM-2", "bucket": "routine", "category": "Admissions", "question": "What documents are required for admission?", "context": {"programme": "BSc CS"}, "expected_state": "answered"},
+    {"id": "R-ADM-3", "bucket": "routine", "category": "Admissions", "question": "Tell me the admission document checklist", "context": {"programme": "BSc CS"}, "expected_state": "answered"},
+    {"id": "R-ADM-4", "bucket": "routine", "category": "Admissions", "question": "Which documents must I submit when I apply?", "context": {"programme": "BSc CS"}, "expected_state": "answered"},
+    {"id": "R-ADM-5", "bucket": "routine", "category": "Admissions", "question": "Do I need my marksheet for admission?", "context": {"programme": "BSc CS"}, "expected_state": "answered"},
+
+    {"id": "R-FEE-1", "bucket": "routine", "category": "Fees", "question": "When is the next fee deadline?", "context": {"programme": "BSc CS", "academic_year": "2026-27"}, "expected_state": "answered"},
+    {"id": "R-FEE-2", "bucket": "routine", "category": "Fees", "question": "How do I pay my semester fee?", "context": {"programme": "BSc CS", "academic_year": "2026-27"}, "expected_state": "answered"},
+    {"id": "R-FEE-3", "bucket": "routine", "category": "Fees", "question": "What are the fee instalments?", "context": {"programme": "BSc CS", "academic_year": "2026-27"}, "expected_state": "answered"},
+    {"id": "R-FEE-4", "bucket": "routine", "category": "Fees", "question": "Where do I pay the tuition fee?", "context": {"programme": "BSc CS", "academic_year": "2026-27"}, "expected_state": "answered"},
+    {"id": "R-FEE-5", "bucket": "routine", "category": "Fees", "question": "Is there a fee payment deadline I should know?", "context": {"programme": "BSc CS", "academic_year": "2026-27"}, "expected_state": "answered"},
+
+    {"id": "R-EXA-1", "bucket": "routine", "category": "Examinations", "question": "When is my Mathematics exam?", "context": {"programme": "BSc CS", "semester": "1", "subject": "Mathematics"}, "expected_state": "answered"},
+    {"id": "R-EXA-2", "bucket": "routine", "category": "Examinations", "question": "What is the Mathematics examination date?", "context": {"programme": "BSc CS", "semester": "1", "subject": "Mathematics"}, "expected_state": "answered"},
+    {"id": "R-EXA-3", "bucket": "routine", "category": "Examinations", "question": "Which room is my Mathematics exam in?", "context": {"programme": "BSc CS", "semester": "1", "subject": "Mathematics"}, "expected_state": "answered"},
+    {"id": "R-EXA-4", "bucket": "routine", "category": "Examinations", "question": "At what time does the Mathematics exam start?", "context": {"programme": "BSc CS", "semester": "1", "subject": "Mathematics"}, "expected_state": "answered"},
+    {"id": "R-EXA-5", "bucket": "routine", "category": "Examinations", "question": "Mathematics exam timing and venue?", "context": {"programme": "BSc CS", "semester": "1", "subject": "Mathematics"}, "expected_state": "answered"},
+
+    {"id": "R-TIM-1", "bucket": "routine", "category": "Timetables", "question": "Where is my next class?", "context": {"programme": "BSc CS", "semester": "1"}, "expected_state": "answered"},
+    {"id": "R-TIM-2", "bucket": "routine", "category": "Timetables", "question": "What is my Monday timetable?", "context": {"programme": "BSc CS", "semester": "1"}, "expected_state": "answered"},
+    {"id": "R-TIM-3", "bucket": "routine", "category": "Timetables", "question": "When is the programming lab?", "context": {"programme": "BSc CS", "semester": "1"}, "expected_state": "answered"},
+    {"id": "R-TIM-4", "bucket": "routine", "category": "Timetables", "question": "Which room is the Mathematics lecture in?", "context": {"programme": "BSc CS", "semester": "1"}, "expected_state": "answered"},
+    {"id": "R-TIM-5", "bucket": "routine", "category": "Timetables", "question": "Show my class schedule for the week", "context": {"programme": "BSc CS", "semester": "1"}, "expected_state": "answered"},
+
+    {"id": "R-ACT-1", "bucket": "routine", "category": "College activities", "question": "How do I register for an event?", "context": {}, "expected_state": "answered"},
+    {"id": "R-ACT-2", "bucket": "routine", "category": "College activities", "question": "How can I join a college club?", "context": {}, "expected_state": "answered"},
+    {"id": "R-ACT-3", "bucket": "routine", "category": "College activities", "question": "What is the event registration process?", "context": {}, "expected_state": "answered"},
+    {"id": "R-ACT-4", "bucket": "routine", "category": "College activities", "question": "How do I sign up for a sports event?", "context": {}, "expected_state": "answered"},
+    {"id": "R-ACT-5", "bucket": "routine", "category": "College activities", "question": "Where do I register for activities?", "context": {}, "expected_state": "answered"},
+
+    {"id": "M-1", "bucket": "missing_context", "category": "Examinations", "question": "When is my exam?", "context": {}, "expected_state": "needs_context"},
+    {"id": "M-2", "bucket": "missing_context", "category": "Examinations", "question": "When is my exam?", "context": {"programme": "BSc CS"}, "expected_state": "needs_context"},
+    {"id": "M-3", "bucket": "missing_context", "category": "Examinations", "question": "When is my exam?", "context": {"programme": "BSc CS", "semester": "1"}, "expected_state": "needs_context"},
+    {"id": "M-4", "bucket": "missing_context", "category": "Fees", "question": "When is the fee deadline?", "context": {}, "expected_state": "needs_context"},
+    {"id": "M-5", "bucket": "missing_context", "category": "Fees", "question": "When is the fee deadline?", "context": {"programme": "BSc CS"}, "expected_state": "needs_context"},
+    {"id": "M-6", "bucket": "missing_context", "category": "Timetables", "question": "Where is my next class?", "context": {}, "expected_state": "needs_context"},
+    {"id": "M-7", "bucket": "missing_context", "category": "Timetables", "question": "Where is my next class?", "context": {"programme": "BSc CS"}, "expected_state": "needs_context"},
+    {"id": "M-8", "bucket": "missing_context", "category": "Admissions", "question": "Which documents do I need?", "context": {}, "expected_state": "needs_context"},
+    {"id": "M-9", "bucket": "missing_context", "category": "Examinations", "question": "When is the Mathematics exam?", "context": {"programme": "BSc CS"}, "expected_state": "needs_context"},
+    {"id": "M-10", "bucket": "missing_context", "category": "Examinations", "question": "When is the exam?", "context": {"semester": "1", "subject": "Mathematics"}, "expected_state": "needs_context"},
+
+    {"id": "O-1", "bucket": "outdated_conflicting", "category": "Examinations", "question": "Is the old Mathematics exam date still valid?", "context": {"programme": "BSc CS", "semester": "1", "subject": "Mathematics"}, "expected_state": "answered_or_escalated", "note": "The current version must win over the replaced one."},
+    {"id": "O-2", "bucket": "outdated_conflicting", "category": "Examinations", "question": "The notice I have shows a different exam room, which is correct?", "context": {"programme": "BSc CS", "semester": "1", "subject": "Mathematics"}, "expected_state": "answered_or_escalated"},
+    {"id": "O-3", "bucket": "outdated_conflicting", "category": "Examinations", "question": "Which version of the exam notice is current?", "context": {"programme": "BSc CS", "semester": "1", "subject": "Mathematics"}, "expected_state": "answered_or_escalated"},
+    {"id": "O-4", "bucket": "outdated_conflicting", "category": "Fees", "question": "A superseded fee notice mentions a different deadline, is it valid?", "context": {"programme": "BSc CS", "academic_year": "2026-27"}, "expected_state": "answered_or_escalated"},
+    {"id": "O-5", "bucket": "outdated_conflicting", "category": "Examinations", "question": "My friend has an older exam schedule, should I follow it?", "context": {"programme": "BSc CS", "semester": "1", "subject": "Mathematics"}, "expected_state": "answered_or_escalated"},
+
+    {"id": "U-1", "bucket": "unsupported", "category": "None", "question": "What is the cafeteria menu on Friday?", "context": {}, "expected_state": "escalated"},
+    {"id": "U-2", "bucket": "unsupported", "category": "None", "question": "Who won the inter-college cricket final?", "context": {}, "expected_state": "escalated"},
+    {"id": "U-3", "bucket": "unsupported", "category": "None", "question": "What is the wifi password for the hostel?", "context": {}, "expected_state": "escalated"},
+    {"id": "U-4", "bucket": "unsupported", "category": "None", "question": "What is the bus route timing to the north campus?", "context": {}, "expected_state": "escalated"},
+    {"id": "U-5", "bucket": "unsupported", "category": "None", "question": "How many students were placed last year?", "context": {}, "expected_state": "escalated"},
+    {"id": "U-6", "bucket": "unsupported", "category": "None", "question": "What is the principal's personal phone number?", "context": {}, "expected_state": "escalated"},
+    {"id": "U-7", "bucket": "unsupported", "category": "None", "question": "Tell me the weather forecast for the campus tomorrow", "context": {}, "expected_state": "escalated"},
+    {"id": "U-8", "bucket": "unsupported", "category": "None", "question": "What is the canteen's daily special today?", "context": {}, "expected_state": "escalated"},
+    {"id": "U-9", "bucket": "unsupported", "category": "None", "question": "Which professor gives the easiest marks?", "context": {}, "expected_state": "escalated"},
+    {"id": "U-10", "bucket": "unsupported", "category": "None", "question": "What is the schedule of the shuttle bus to the city?", "context": {}, "expected_state": "escalated"}
+  ]
+}

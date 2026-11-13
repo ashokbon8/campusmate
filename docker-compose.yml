@@ -1,0 +1,65 @@
+# CampusMate — full stack: PostgreSQL + pgvector, FastAPI backend, React frontend.
+#
+#   docker compose up --build
+#   Frontend:  http://localhost:8080
+#   API docs:  http://localhost:8000/docs
+#
+# The demo seeds synthetic SAMPLE data on first start. Change SECRET_KEY and the
+# seed admin credentials before any real deployment.
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: campusmate
+      POSTGRES_PASSWORD: campusmate
+      POSTGRES_DB: campusmate
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U campusmate -d campusmate"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    environment:
+      ENVIRONMENT: production
+      DATABASE_URL: postgresql+psycopg2://campusmate:campusmate@db:5432/campusmate
+      SECRET_KEY: ${SECRET_KEY:-change-me-in-production}
+      LLM_PROVIDER: ${LLM_PROVIDER:-stub}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      EMBEDDING_PROVIDER: ${EMBEDDING_PROVIDER:-hashing}
+      EMBEDDING_API_KEY: ${EMBEDDING_API_KEY:-}
+      CAMPUSMATE_SEED: "1"
+      SEED_ADMIN_EMAIL: ${SEED_ADMIN_EMAIL:-}
+      SEED_ADMIN_PASSWORD: ${SEED_ADMIN_PASSWORD:-}
+      SEED_ADMIN_NAME: ${SEED_ADMIN_NAME:-CampusMate Administrator}
+      UPLOAD_DIR: /app/storage/documents
+    volumes:
+      - upload_data:/app/storage/documents
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  db_data:
+  upload_data:

@@ -1,0 +1,44 @@
+# Free hackathon deployment. Free PostgreSQL expires after 30 days.
+# Upgrade the database before expiry if judges need the site for longer.
+services:
+  - type: web
+    name: campusmate-jscoe
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: campusmate-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: SEED_ADMIN_EMAIL
+        sync: false
+      - key: SEED_ADMIN_PASSWORD
+        sync: false
+      - key: SEED_ADMIN_NAME
+        value: CampusMate Administrator
+      - key: CAMPUSMATE_DATASET
+        value: jscoe
+      - key: CAMPUSMATE_SEED
+        value: "1"
+      - key: LLM_PROVIDER
+        value: stub
+      - key: EMBEDDING_PROVIDER
+        value: hashing
+      - key: UPLOAD_DIR
+        value: /tmp/campusmate-documents
+
+databases:
+  - name: campusmate-db
+    plan: free
+    region: singapore
+    databaseName: campusmate
+    user: campusmate
+    postgresMajorVersion: "16"

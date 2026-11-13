@@ -1,0 +1,530 @@
+{
+  "checked_on": "2026-11-13",
+  "source_url": "https://jspmjscoe.edu.in/storage/PDF/engineering%20science/syllabus/SyllabusStructureFYBTech2026Pattern.pdf",
+  "source_page": 2,
+  "note": "Course names and codes come from the syllabus. ALL dates/times/venues in demo_timetables are invented examples, not college information. Shared first-year subjects depend on the college group/semester arrangement.",
+  "courses": [
+    {
+      "code": "BSC101ES",
+      "name": "Engineering Mathematics I",
+      "semester": 1,
+      "aliases": [
+        "math",
+        "maths",
+        "mathematics",
+        "maths 1",
+        "math 1",
+        "m1",
+        "em1",
+        "engineering mathematics 1"
+      ]
+    },
+    {
+      "code": "BSC102ES",
+      "name": "Engineering Physics",
+      "semester": null,
+      "aliases": [
+        "physics",
+        "phy",
+        "ep"
+      ]
+    },
+    {
+      "code": "BSC103ES",
+      "name": "Engineering Chemistry",
+      "semester": null,
+      "aliases": [
+        "chemistry",
+        "chem",
+        "ec"
+      ]
+    },
+    {
+      "code": "ESC111ES",
+      "name": "Engineering Graphics",
+      "semester": null,
+      "aliases": [
+        "graphics",
+        "eg",
+        "engineering drawing",
+        "drawing",
+        "ed"
+      ]
+    },
+    {
+      "code": "ESC112ES",
+      "name": "Engineering Mechanics",
+      "semester": null,
+      "aliases": [
+        "mechanics",
+        "em"
+      ]
+    },
+    {
+      "code": "ESC113ES",
+      "name": "Basic Electrical and Electronics Engineering I",
+      "semester": 1,
+      "aliases": [
+        "beee",
+        "beee 1",
+        "bee",
+        "basic electrical",
+        "basic electronics",
+        "electrical",
+        "electronics"
+      ]
+    },
+    {
+      "code": "ESC114ES",
+      "name": "Fundamentals of C Programming",
+      "semester": 1,
+      "aliases": [
+        "c programming",
+        "programming in c",
+        "c language",
+        "fcp",
+        "c"
+      ]
+    },
+    {
+      "code": "VSEC131ES",
+      "name": "Fundamentals of Manufacturing and Product Prototyping",
+      "semester": null,
+      "aliases": [
+        "fmpp",
+        "manufacturing",
+        "product prototyping",
+        "workshop"
+      ]
+    },
+    {
+      "code": "VSEC132ES",
+      "name": "Design Thinking and Idea Lab",
+      "semester": null,
+      "aliases": [
+        "dti",
+        "design thinking",
+        "idea lab"
+      ]
+    },
+    {
+      "code": "AEC141ES",
+      "name": "Professional Communication Skill",
+      "semester": null,
+      "aliases": [
+        "pcs",
+        "communication",
+        "professional communication",
+        "english"
+      ]
+    },
+    {
+      "code": "VSEC133ES",
+      "name": "Electrical and Electronics Exploration Lab I",
+      "semester": 1,
+      "aliases": [
+        "exploration lab",
+        "eee lab",
+        "electrical lab",
+        "electronics lab",
+        "lab 1"
+      ]
+    },
+    {
+      "code": "CC142ES",
+      "name": "Co-Curricular Courses I",
+      "semester": 1,
+      "aliases": [
+        "co curricular",
+        "co curricular 1",
+        "cc 1"
+      ]
+    },
+    {
+      "code": "BSC151ES",
+      "name": "Engineering Mathematics II",
+      "semester": 2,
+      "aliases": [
+        "maths 2",
+        "math 2",
+        "mathematics 2",
+        "m2",
+        "em2",
+        "engineering mathematics 2"
+      ]
+    },
+    {
+      "code": "ESC161ES",
+      "name": "Basic Electrical and Electronics Engineering II",
+      "semester": 2,
+      "aliases": [
+        "beee 2",
+        "basic electrical and electronics engineering 2",
+        "bee 2"
+      ]
+    },
+    {
+      "code": "ESC162ES",
+      "name": "Programming in C++",
+      "semester": 2,
+      "aliases": [
+        "c++",
+        "cpp",
+        "c plus plus",
+        "cplusplus"
+      ]
+    },
+    {
+      "code": "AEC191ES",
+      "name": "Indian Knowledge System",
+      "semester": 2,
+      "aliases": [
+        "iks",
+        "indian knowledge systems"
+      ]
+    },
+    {
+      "code": "VSEC181ES",
+      "name": "Electrical and Electronics Exploration Lab II",
+      "semester": 2,
+      "aliases": [
+        "exploration lab 2",
+        "eee lab 2",
+        "electrical lab 2",
+        "electronics lab 2"
+      ]
+    },
+    {
+      "code": "CC192ES",
+      "name": "Co-Curricular Courses II",
+      "semester": 2,
+      "aliases": [
+        "co curricular 2",
+        "cc 2"
+      ]
+    }
+  ],
+  "demo_timetables": [
+    {
+      "id": "demo-exams-sem-1",
+      "programme": "B.Tech",
+      "semester": "1",
+      "academic_year": "2026-27",
+      "division": null,
+      "exam_kind": "end_sem",
+      "title": "DEMO — fictional Semester 1 exam dates",
+      "is_demo": true,
+      "rows": [
+        {
+          "subject": "Engineering Mathematics I",
+          "exam_date": "2026-12-23",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "math",
+            "maths",
+            "mathematics",
+            "maths 1",
+            "math 1",
+            "m1",
+            "em1",
+            "engineering mathematics 1"
+          ]
+        },
+        {
+          "subject": "Engineering Physics",
+          "exam_date": "2026-12-24",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "physics",
+            "phy",
+            "ep"
+          ]
+        },
+        {
+          "subject": "Engineering Chemistry",
+          "exam_date": "2026-12-26",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "chemistry",
+            "chem",
+            "ec"
+          ]
+        },
+        {
+          "subject": "Engineering Graphics",
+          "exam_date": "2026-12-28",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "graphics",
+            "eg",
+            "engineering drawing",
+            "drawing",
+            "ed"
+          ]
+        },
+        {
+          "subject": "Engineering Mechanics",
+          "exam_date": "2026-12-29",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "mechanics",
+            "em"
+          ]
+        },
+        {
+          "subject": "Basic Electrical and Electronics Engineering I",
+          "exam_date": "2026-12-30",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "beee",
+            "beee 1",
+            "bee",
+            "basic electrical",
+            "basic electronics",
+            "electrical",
+            "electronics"
+          ]
+        },
+        {
+          "subject": "Fundamentals of C Programming",
+          "exam_date": "2026-12-31",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "c programming",
+            "programming in c",
+            "c language",
+            "fcp",
+            "c"
+          ]
+        },
+        {
+          "subject": "Fundamentals of Manufacturing and Product Prototyping",
+          "exam_date": "2027-01-02",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "fmpp",
+            "manufacturing",
+            "product prototyping",
+            "workshop"
+          ]
+        },
+        {
+          "subject": "Design Thinking and Idea Lab",
+          "exam_date": "2027-01-04",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "dti",
+            "design thinking",
+            "idea lab"
+          ]
+        },
+        {
+          "subject": "Professional Communication Skill",
+          "exam_date": "2027-01-05",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "pcs",
+            "communication",
+            "professional communication",
+            "english"
+          ]
+        },
+        {
+          "subject": "Electrical and Electronics Exploration Lab I",
+          "exam_date": "2027-01-06",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "exploration lab",
+            "eee lab",
+            "electrical lab",
+            "electronics lab",
+            "lab 1"
+          ]
+        },
+        {
+          "subject": "Co-Curricular Courses I",
+          "exam_date": "2027-01-07",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "co curricular",
+            "co curricular 1",
+            "cc 1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-exams-sem-2",
+      "programme": "B.Tech",
+      "semester": "2",
+      "academic_year": "2026-27",
+      "division": null,
+      "exam_kind": "end_sem",
+      "title": "DEMO — fictional Semester 2 exam dates",
+      "is_demo": true,
+      "rows": [
+        {
+          "subject": "Engineering Physics",
+          "exam_date": "2027-05-15",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "physics",
+            "phy",
+            "ep"
+          ]
+        },
+        {
+          "subject": "Engineering Chemistry",
+          "exam_date": "2027-05-16",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "chemistry",
+            "chem",
+            "ec"
+          ]
+        },
+        {
+          "subject": "Engineering Graphics",
+          "exam_date": "2027-05-17",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "graphics",
+            "eg",
+            "engineering drawing",
+            "drawing",
+            "ed"
+          ]
+        },
+        {
+          "subject": "Engineering Mechanics",
+          "exam_date": "2027-05-18",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "mechanics",
+            "em"
+          ]
+        },
+        {
+          "subject": "Fundamentals of Manufacturing and Product Prototyping",
+          "exam_date": "2027-05-19",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "fmpp",
+            "manufacturing",
+            "product prototyping",
+            "workshop"
+          ]
+        },
+        {
+          "subject": "Design Thinking and Idea Lab",
+          "exam_date": "2027-05-20",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "dti",
+            "design thinking",
+            "idea lab"
+          ]
+        },
+        {
+          "subject": "Professional Communication Skill",
+          "exam_date": "2027-05-21",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "pcs",
+            "communication",
+            "professional communication",
+            "english"
+          ]
+        },
+        {
+          "subject": "Engineering Mathematics II",
+          "exam_date": "2027-05-22",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "maths 2",
+            "math 2",
+            "mathematics 2",
+            "m2",
+            "em2",
+            "engineering mathematics 2"
+          ]
+        },
+        {
+          "subject": "Basic Electrical and Electronics Engineering II",
+          "exam_date": "2027-05-23",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "beee 2",
+            "basic electrical and electronics engineering 2",
+            "bee 2"
+          ]
+        },
+        {
+          "subject": "Programming in C++",
+          "exam_date": "2027-05-24",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "c++",
+            "cpp",
+            "c plus plus",
+            "cplusplus"
+          ]
+        },
+        {
+          "subject": "Indian Knowledge System",
+          "exam_date": "2027-05-25",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "iks",
+            "indian knowledge systems"
+          ]
+        },
+        {
+          "subject": "Electrical and Electronics Exploration Lab II",
+          "exam_date": "2027-05-26",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "exploration lab 2",
+            "eee lab 2",
+            "electrical lab 2",
+            "electronics lab 2"
+          ]
+        },
+        {
+          "subject": "Co-Curricular Courses II",
+          "exam_date": "2027-05-27",
+          "start_time": "10:00",
+          "venue": "Example Room",
+          "aliases": [
+            "co curricular 2",
+            "cc 2"
+          ]
+        }
+      ]
+    }
+  ]
+}

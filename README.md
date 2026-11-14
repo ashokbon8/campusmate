@@ -2,7 +2,11 @@
 
 **A helpdesk students can verify.**
 
-**Source code:** https://github.com/ashokbon8/campusmate
+**Campus Mate live website link** :- ==> Available at your primary URL https://campusmate-jscoe-01o0.onrender.com
+
+**GitHub repository** :- https://github.com/ashokbon8/campusmate 
+
+**This is the final website link and GitHub repository.  the website will take 5 sec for opening the live website**
 
 ## Hackathon submission and live website
 
